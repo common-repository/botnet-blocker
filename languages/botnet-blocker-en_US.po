@@ -1,0 +1,118 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Botnet Blocker\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-09-15 21:36-0500\n"
+"PO-Revision-Date: 2015-09-29 15:19-0600\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: Dennis Wallace <dwallace@shr.global>\n"
+"Language-Team: \n"
+"X-Generator: Poedit 1.8.1\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: en\n"
+
+#: class.bnblocker-admin.php:39
+msgid "Botnet Blocker Settings"
+msgstr "Botnet Blocker Settings"
+
+#: class.bnblocker-admin.php:39
+msgid "Botnet Blocker"
+msgstr "Botnet Blocker"
+
+#: class.bnblocker-admin.php:46
+msgid "Settings"
+msgstr "Settings"
+
+#: class.bnblocker-admin.php:63
+msgid "Realtime Blacklist Service"
+msgstr "Realtime Blacklist Service"
+
+#: class.bnblocker-admin.php:64
+msgid "Which RBL service to use when checking for botnet addresses."
+msgstr "Which RBL service to use when checking for botnet addresses."
+
+#: class.bnblocker-admin.php:71
+msgid "Skip List"
+msgstr "Skip List"
+
+#: class.bnblocker-admin.php:72
+msgid "A list of IP addresses and/or network/mask combinations to skip checking.  Network/mask entries must be in CIDR form ( e.g., 192.168.0.0/16 )."
+msgstr "A list of IP addresses and/or network/mask combinations to skip checking.  Network/mask entries must be in CIDR form ( e.g., 192.168.0.0/16 )."
+
+#: class.bnblocker-admin.php:78
+msgid "Skip Self"
+msgstr "Skip Self"
+
+#: class.bnblocker-admin.php:79
+msgid "If checked, the local server address will be added to the skip list."
+msgstr "If checked, the local server address will be added to the skip list."
+
+#: class.bnblocker-admin.php:85
+msgid "Whitelist"
+msgstr "Whitelist"
+
+#: class.bnblocker-admin.php:86
+msgid "A list of IP addresses and/or network/mask combinations to never mark as a bot.  The whitelist overrides the black list - if the same address is in both lists then it will be allowed.  Network/mask entries must be in CIDR form ( e.g., 192.168.0.0/16 )."
+msgstr "A list of IP addresses and/or network/mask combinations to never mark as a bot.  The whitelist overrides the black list - if the same address is in both lists then it will be allowed.  Network/mask entries must be in CIDR form ( e.g., 192.168.0.0/16 )."
+
+#: class.bnblocker-admin.php:91
+msgid "Blacklist"
+msgstr "Blacklist"
+
+#: class.bnblocker-admin.php:92
+msgid "A list of IP addresses and/or network/mask combinations to always mark as a bot (unless also present on the white list).  Network/mask entries must be in CIDR form ( e.g., 192.168.0.0/16 )."
+msgstr "A list of IP addresses and/or network/mask combinations to always mark as a bot (unless also present on the white list).  Network/mask entries must be in CIDR form ( e.g., 192.168.0.0/16 )."
+
+msgid "Redirects detected bots to a 404 page on page load.  Make sure your IP address is in the whitelist before activating (just in case)!"
+msgstr "Redirects detected bots to a 404 page on page load.  Make sure your IP address is in the whitelist before activating (just in case)!"
+
+msgid "DNS Whitelist"
+msgstr "DNS Whitelist"
+
+msgid "A list of DNS names to never mark as a bot.  The whitelist overrides the black lists - if the same name is in both lists then it will be allowed."
+msgstr "A list of DNS names to never mark as a bot.  This is either a Regular Expression bounded by slashes ( /expression/ ), or will be matched to the right-most end of the DNS name (e.g., .amazonaws.com will match ec2-some-ip-here.region-name.compute.amazonaws.com ). The whitelist overrides the black lists - if the same name is in both lists then it will be allowed."
+
+msgid "DNS Blacklist"
+msgstr "DNS Blacklist"
+
+msgid "A list of DNS names to always mark as a bot (unless also present on the white list)."
+msgstr "A list of DNS names to always mark as a bot (unless also present on the white list). This is either a Regular Expression bounded by slashes ( /expression/ ), or will be matched to the right-most end of the DNS name (e.g., .amazonaws.com will match ec2-some-ip-here.region-name.compute.amazonaws.com )."
+
+#: class.settings-api.php:352
+msgid "Choose File"
+msgstr "Choose File"
+
+msgid "Ignore all RBLs"
+msgstr "Ignore all RBLs"
+
+msgid "All valid blacklists"
+msgstr "All valid blacklists"
+
+#: class.settings-api.php:352
+msgid "spamhaus_xbl"
+msgstr "Spamhaus XBL List"
+
+msgid "spamhaus"
+msgstr "Spamhaus Zen list"
+
+msgid "spamcop"
+msgstr "Spamcop"
+
+msgid "dsbl"
+msgstr "DSBL"
+
+msgid "ordb"
+msgstr "ORDB"
+
+msgid "sorbs"
+msgstr "SORBS"
+
+msgid "njabl"
+msgstr "NJABL"
